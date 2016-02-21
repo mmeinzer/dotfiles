@@ -8,6 +8,9 @@ set history=500
 filetype plugin on
 filetype indent on
 
+" Turn on line numbers
+set number
+
 " Set to auto read when a file is changed from the outside
 set autoread
 
@@ -55,4 +58,7 @@ set wrap "Wrap lines
 " Treat long lines as break lines (useful when moving around in them)
 map j gj
 map k gk
+
+" Prevent auto-commented text
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
