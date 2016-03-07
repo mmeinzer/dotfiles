@@ -1,0 +1,10 @@
+dropbox
+faba-icon-theme-git
+faba-mono-icons-git
+gtk-theme-arc-git
+i3blocks
+libcurl-compat
+moka-icon-theme-git
+numix-icon-theme-git
+oh-my-zsh-git
+rxvt-unicode-patched
